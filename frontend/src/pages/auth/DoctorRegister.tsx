@@ -210,11 +210,11 @@ const DoctorRegister: React.FC = () => {
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-300">
-                  Consultation Price
+                Consultation Price
                 </label>
                 <input
                   type="text"
-                  value={selectedServiceDetails ? `$${selectedServiceDetails.price}` : 'Select a service'}
+                  value={selectedServiceDetails ? `৳ ${selectedServiceDetails.price}` : 'Select a service'}
                   readOnly
                   className="mt-1 block w-full bg-gray-700/50 border border-gray-600 rounded-lg px-4 py-2 text-white"
                 />

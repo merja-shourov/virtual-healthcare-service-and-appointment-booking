@@ -126,7 +126,7 @@ const PatientAppointments: React.FC = () => {
                   <div className="flex justify-between items-start">
                     <div>
                       <h3 className="text-white font-medium">
-                        Dr. {appointment.doctor?.name}
+                        {appointment.doctor?.name}
                       </h3>
                       <p className="text-gray-400 text-sm">
                         {appointment.doctor?.specialization}

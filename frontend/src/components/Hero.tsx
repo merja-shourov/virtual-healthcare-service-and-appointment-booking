@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import chairImg from '../assets/chair.png'
+import chairImg from '../assets/chair.jpg'
 
 const Hero = () => {
   return (
