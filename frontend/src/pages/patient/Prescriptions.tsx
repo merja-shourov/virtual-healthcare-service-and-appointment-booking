@@ -89,7 +89,7 @@ const PatientPrescriptions: React.FC = () => {
                       doctorName: appointment.doctor.name,
                       appointmentDate: appointment.date
                     })}
-                    className="px-4 py-2 text-sm bg-emerald-500/10 text-emerald-500 rounded-lg hover:bg-emerald-500/20 transition-colors"
+                    className="px-1 py-1 text-sm bg-emerald-500/10 text-emerald-500 rounded-lg hover:bg-emerald-500/20 transition-colors"
                   >
                     View Full Prescription
                   </button>

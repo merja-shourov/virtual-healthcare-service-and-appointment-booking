@@ -24,7 +24,7 @@ const ViewPrescriptionModal: React.FC<ViewPrescriptionModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+    <div className="inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-left p-2 z-50">
       <div className="bg-gray-800 rounded-2xl p-8 max-w-2xl w-full border border-gray-700">
         <div className="flex justify-between items-center mb-6">
           <h3 className="text-xl font-semibold text-white">Prescription Details</h3>

@@ -10,7 +10,7 @@ const PrescriptionView: React.FC<PrescriptionViewProps> = ({ prescription }) => 
   return (
     <div className="space-y-4">
       <div className="border-t border-gray-700 pt-4">
-        <h4 className="text-lg font-medium text-white mb-3">Prescription Details</h4>
+        <h4 className="text-lg font-medium text-white mb-2">Prescription Details</h4>
         <div className="space-y-3">
           {prescription.medicines.map((medicine, index) => (
             <div key={index} className="bg-gray-700/30 p-3 rounded-lg">
