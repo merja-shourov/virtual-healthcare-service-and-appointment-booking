@@ -13,28 +13,28 @@ const Services = () => {
       title: 'General Consultation',
       description: 'Regular check-ups and general health consultations',
       icon: '👨‍⚕️',
-      price: '$50',
+      price: '৳ 500',
       duration: '30 min'
     },
     {
       title: 'Specialist Consultation',
       description: 'Consultations with specialized medical professionals',
       icon: '🏥',
-      price: '$100',
+      price: '৳ 1000',
       duration: '45 min'
     },
     {
       title: 'Emergency Care',
       description: 'Immediate medical attention for urgent cases',
       icon: '🚑',
-      price: '$150',
+      price: '৳ 1500',
       duration: '60 min'
     },
     {
       title: 'Follow-up Visit',
       description: 'Follow-up consultations for ongoing treatment',
       icon: '📋',
-      price: '$30',
+      price: '৳ 300',
       duration: '20 min'
     }
   ];

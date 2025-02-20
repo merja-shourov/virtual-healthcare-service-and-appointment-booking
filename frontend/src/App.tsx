@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Provider } from 'react-redux';
 import { store } from './store';
 import Home from './pages/Home';
+
 import BookAppointment from './pages/BookAppointment';
 
 import DoctorDashboard from './pages/doctor/Dashboard';
